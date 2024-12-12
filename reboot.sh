@@ -1,10 +1,10 @@
 #!/usr/bin/expect -f
 
 # Configurações do Switch
-set switch_ip "10.0.251.234"
-set username "ubnt"
-set password "netflex@123"
-set enable_password "netflex@123"
+set switch_ip "ip_switch"
+set username "login_switch"
+set password "senha_switch"
+set enable_password "senha_switch_para_adm"
 set interface "0/3"
 
 # Início da conexão SSH
