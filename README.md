@@ -56,7 +56,7 @@ Type: Script. <br>
 Executar em: Sevidor Zabbix. <br>
 Comandos: ./usr/lib/zabbix/externalscripts/reboot.sh (aonde está seu arquivo no diretorio) <br>
 Grupo: todos. <br>
-
+<br>
 Configuração > Ações > Trigger actions.<br>
 Criar uma nova.<br>
 Nome: o que você preferir.<br>
