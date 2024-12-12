@@ -38,3 +38,35 @@ Copiar código
 
 ./reboot_port.sh
 
+# Integrando ao Zabiix 👍
+
+Criar um Item no Zabbix
+
+Vá para Configuração > Hosts e selecione o host correspondente.
+e click no nome do host exp: sw_azul
+Interfaces: adicionar um "agente"
+IP padrão do agente: 127.0.0.1 e porta 10050
+>> Atulizar as confirgurações
+
+Vá para Administração > Scripts > Novo script.
+Nome: nome_do_seu_Script
+Scope: Operação de Ação
+Type: Script
+Executar em: Sevidor Zabbix
+Comandos: ./usr/lib/zabbix/externalscripts/reboot.sh (aonde está seu arquivo no diretorio)
+Grupo: todos
+
+Configuração > Ações > Trigger actions
+Criar uma nova
+Nome: o que você preferir
+Tipo do calculo; E/ou
+Condições: trigger igual a (sw_azul) link down (aqui depende de como está o seu alarme)
+Ativo: ✅
+
+Operações: 
+Operation: nome_do_seu_Script
+Lista de destinos
+Host atual: ✅
+Host: sw_azul 
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
