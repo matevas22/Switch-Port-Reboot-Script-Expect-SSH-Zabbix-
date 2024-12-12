@@ -1,4 +1,4 @@
-# Script de Automação para Gerenciamento de Portas em Switch 
+# Script de Automação para Gerenciamento de Portas em Switch ♻️✅
 Este script foi desenvolvido para reiniciar (desativar e reativar) uma porta específica de um switch via SSH. Ele utiliza a linguagem Expect para automatizar as interações com o terminal SSH, enviando comandos para o dispositivo de rede.
 
 Funcionalidades
@@ -38,7 +38,7 @@ Copiar código
 
 ./reboot_port.sh
 
-# Integrando ao Zabiix 👍
+# Integrando ao Zabbix 👍
 
 Criar um Item no Zabbix
 
