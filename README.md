@@ -51,11 +51,11 @@ IP padrão do agente: 127.0.0.1 e porta 10050
 Vá para Administração > Scripts > Novo script.
 Nome: nome_do_seu_Script.
 
-Scope: Operação de Ação.
-Type: Script.
-Executar em: Sevidor Zabbix.
-Comandos: ./usr/lib/zabbix/externalscripts/reboot.sh (aonde está seu arquivo no diretorio)
-Grupo: todos.
+Scope: Operação de Ação. <br>
+Type: Script. <br>
+Executar em: Sevidor Zabbix. <br>
+Comandos: ./usr/lib/zabbix/externalscripts/reboot.sh (aonde está seu arquivo no diretorio) <br>
+Grupo: todos. <br>
 
 Configuração > Ações > Trigger actions.
 Criar uma nova.
