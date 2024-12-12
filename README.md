@@ -24,3 +24,17 @@ Configurações no Zabbix (caso usado com o Zabbix):
 
 Certifique-se de que o Zabbix está configurado para permitir scripts externos, com a opção (AllowKey=system.run[*]) configurada no (zabbix_agentd.conf.)
 
+# Como Usar
+Salve o código em um arquivo chamado, por exemplo, reboot_port.sh.
+Torne o arquivo executável:
+bash
+Copiar código
+
+chmod +x reboot_port.sh
+
+Execute o script: 
+bash
+Copiar código
+
+./reboot_port.sh
+
