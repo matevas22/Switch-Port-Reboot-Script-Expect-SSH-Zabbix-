@@ -49,24 +49,24 @@ IP padrão do agente: 127.0.0.1 e porta 10050
 >> Atulizar as confirgurações
 
 Vá para Administração > Scripts > Novo script.
-Nome: nome_do_seu_Script
-Scope: Operação de Ação
-Type: Script
-Executar em: Sevidor Zabbix
+Nome: nome_do_seu_Script.
+Scope: Operação de Ação.
+Type: Script.
+Executar em: Sevidor Zabbix.
 Comandos: ./usr/lib/zabbix/externalscripts/reboot.sh (aonde está seu arquivo no diretorio)
-Grupo: todos
+Grupo: todos.
 
-Configuração > Ações > Trigger actions
-Criar uma nova
-Nome: o que você preferir
-Tipo do calculo; E/ou
-Condições: trigger igual a (sw_azul) link down (aqui depende de como está o seu alarme)
+Configuração > Ações > Trigger actions.
+Criar uma nova.
+Nome: o que você preferir.
+Tipo do calculo; E/ou.
+Condições: trigger igual a (sw_azul) link down (aqui depende de como está o seu alarme).
 Ativo: ✅
 
 Operações: 
-Operation: nome_do_seu_Script
-Lista de destinos
+Operation: nome_do_seu_Script.
+Lista de destinos.
 Host atual: ✅
-Host: sw_azul 
+Host: sw_azul.
 
 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
