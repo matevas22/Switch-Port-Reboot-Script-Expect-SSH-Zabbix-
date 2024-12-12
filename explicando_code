@@ -1,0 +1,19 @@
+# Explicação do Código
+Configuração Inicial:
+
+As variáveis switch_ip, username, password, enable_password e interface armazenam os dados necessários para a conexão e operação no switch.
+Conexão SSH:
+
+O comando spawn ssh inicia uma conexão SSH com o dispositivo.
+O bloco expect trata o aviso de primeira conexão SSH (quando a chave do dispositivo ainda não está armazenada).
+Modo Privilegiado e Configuração:
+
+Após o login, o script entra no modo privilegiado (enable) usando a senha administrativa.
+Depois, entra no modo de configuração global (configure).
+Gerenciamento da Porta:
+
+A porta especificada na variável interface é acessada com o comando interface $interface.
+O comando shutdown desativa a porta e no shutdown reativa.
+Finalização:
+
+O script sai do modo de configuração e fecha a conexão SSH de maneira segura.
