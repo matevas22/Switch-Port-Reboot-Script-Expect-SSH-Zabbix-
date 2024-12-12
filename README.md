@@ -57,11 +57,11 @@ Comandos: ./usr/lib/zabbix/externalscripts/reboot.sh (aonde está seu arquivo no
 Grupo: todos.
 
 Configuração > Ações > Trigger actions.
-Criar uma nova.
-Nome: o que você preferir.
-Tipo do calculo; E/ou.
-Condições: trigger igual a (sw_azul) link down (aqui depende de como está o seu alarme).
-Ativo: ✅
+##Criar uma nova.
+##Nome: o que você preferir.
+##Tipo do calculo; E/ou.
+##Condições: trigger igual a (sw_azul) link down (aqui depende de como está o seu alarme).
+##Ativo: ✅
 
 Operações: 
 Operation: nome_do_seu_Script.
